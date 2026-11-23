@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101827">
+  <meta name="description" content="THE STEEL WORKS - Heavy machinery welding, industrial welding and steel fabrication in Ruiru, Kenya.">
+  <title>THE STEEL WORKS | Welding & Fabrication</title>
+  <style>
+    :root{--navy:#101827;--blue:#123b79;--yellow:#ffc928;--red:#d92727;--light:#f4f6fa;--ink:#172033}
+    *{box-sizing:border-box} html{scroll-behavior:smooth}
+    body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.55}
+    a{color:inherit;text-decoration:none}
+    .top{background:var(--navy);color:#fff;padding:10px 5%;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:14px}
+    header{background:#fff;position:sticky;top:0;z-index:10;box-shadow:0 3px 14px #00000012}
+    .nav{max-width:1150px;margin:auto;padding:12px 22px;display:flex;align-items:center;justify-content:space-between;gap:18px}
+    .brand{display:flex;align-items:center;gap:12px;font-weight:900;color:var(--navy);letter-spacing:.5px}
+    .brand img{width:62px;height:62px;object-fit:contain}
+    .brand span{font-size:19px;line-height:1.1}.brand small{display:block;color:#a66d00;font-size:11px;letter-spacing:1.5px;margin-top:4px}
+    nav{display:flex;gap:22px;align-items:center;font-weight:700;font-size:14px}
+    nav a:hover{color:#a66d00}
+    .call{background:var(--red);color:#fff;padding:11px 16px;border-radius:7px;font-weight:800}
+    .hero{background:linear-gradient(115deg,#101827 0%,#123b79 72%,#0e254b 100%);color:#fff;padding:54px 22px}
+    .hero-inner{max-width:1150px;margin:auto;display:grid;grid-template-columns:1fr .95fr;align-items:center;gap:35px}
+    .eyebrow{color:var(--yellow);font-weight:900;letter-spacing:2px;text-transform:uppercase;font-size:13px}
+    h1{font-size:clamp(34px,5vw,58px);line-height:1.03;margin:12px 0 18px;text-transform:uppercase}
+    h1 em{font-style:normal;color:var(--yellow)}
+    .hero p{font-size:18px;color:#e6edf8;max-width:590px}
+    .actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}
+    .btn{display:inline-block;padding:13px 19px;border-radius:7px;font-weight:900}
+    .btn.yellow{background:var(--yellow);color:#151515}.btn.outline{border:2px solid #fff;color:#fff}
+    .hero-logo{background:#fff;border:5px solid var(--yellow);border-radius:18px;padding:10px;text-align:center}
+    .hero-logo img{width:100%;max-height:390px;object-fit:contain;display:block}
+    section{padding:62px 22px}.wrap{max-width:1150px;margin:auto}
+    .section-title{text-align:center;margin:0 0 10px;font-size:34px;color:var(--navy);text-transform:uppercase}
+    .lead{text-align:center;max-width:720px;margin:0 auto 34px;color:#596579}
+    .services{background:var(--light)}
+    .grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .service{background:#fff;border-radius:12px;padding:22px;border-top:5px solid var(--yellow);box-shadow:0 5px 18px #1020400d}
+    .service h3{margin:0 0 8px;color:var(--blue);font-size:18px}
+    .service p{margin:0;color:#596579;font-size:14px}
+    .poster{background:#fff;text-align:center}
+    .poster img{width:100%;max-width:1050px;height:auto;border-radius:12px;box-shadow:0 8px 28px #00000018}
+    .contact{background:var(--navy);color:#fff}
+    .contact .section-title{color:#fff}.contact .lead{color:#d8e1ef}
+    .contact-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .contact-card{background:#1b2b43;border:1px solid #40516b;border-radius:12px;padding:22px}
+    .contact-card strong{display:block;color:var(--yellow);font-size:13px;text-transform:uppercase;letter-spacing:1px;margin-bottom:7px}
+    .contact-card a,.contact-card span{font-size:17px;font-weight:700}
+    .contact-actions{text-align:center;margin-top:28px;display:flex;justify-content:center;gap:12px;flex-wrap:wrap}
+    footer{background:#080e18;color:#c8d0dc;text-align:center;padding:20px;font-size:13px}
+    .wa{background:#168b51;color:white}
+    @media(max-width:800px){.hero-inner{grid-template-columns:1fr}.hero-logo{max-width:520px;margin:auto}.grid{grid-template-columns:repeat(2,1fr)}nav{gap:12px;flex-wrap:wrap;justify-content:flex-end}.contact-grid{grid-template-columns:1fr}}
+    @media(max-width:560px){.nav{align-items:flex-start}.brand img{width:50px;height:50px}.brand span{font-size:16px}nav{font-size:12px}.nav .call{display:none}.grid{grid-template-columns:1fr}section{padding:45px 17px}.hero{padding:42px 17px}.top{font-size:12px}}
+  </style>
+</head>
+<body>
+  <div class="top">
+    <span>Ruiru, Eastern Bypass • Near Total Petrol Station</span>
+    <span>Call: 0790 900 636 / 0781 396 425</span>
+  </div>
+  <header>
+    <div class="nav">
+      <a class="brand" href="#home">
+        <img src="logo.png" alt="THE STEEL WORKS logo">
+        <span>THE STEEL WORKS<small>WELDING &amp; FABRICATION</small></span>
+      </a>
+      <nav aria-label="Main navigation">
+        <a href="#services">Services</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="call" href="tel:+254790900636">Call us</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-inner">
+        <div>
+          <div class="eyebrow">Heavy machinery • Industrial welding • Steel fabrication</div>
+          <h1>Strong work.<br><em>Built to last.</em></h1>
+          <p>Professional welding, fabrication and repair services for customers and contractors across Kenya.</p>
+          <div class="actions">
+            <a class="btn yellow" href="https://wa.me/254790900636?text=Hello%20THE%20STEEL%20WORKS%2C%20I%20would%20like%20to%20enquire%20about%20your%20services.">WhatsApp us</a>
+            <a class="btn outline" href="#services">Explore services</a>
+          </div>
+        </div>
+        <div class="hero-logo"><img src="logo.png" alt="THE STEEL WORKS welding and fabrication logo"></div>
+      </div>
+    </section>
+
+    <section class="services" id="services">
+      <div class="wrap">
+        <h2 class="section-title">Our services</h2>
+        <p class="lead">Welding, repairs and custom fabrication for heavy machinery, industrial projects and homes.</p>
+        <div class="grid">
+          <article class="service"><h3>Heavy Machinery Welding and Repairs</h3><p>Welding and repair work for heavy-duty machinery and equipment.</p></article>
+          <article class="service"><h3>Excavator, Bulldozer and Loader Repairs</h3><p>Repair services for construction and earthmoving equipment.</p></article>
+          <article class="service"><h3>Excavator Buckets and Attachments</h3><p>Fabrication and repair of buckets and machine attachments.</p></article>
+          <article class="service"><h3>Heavy-Duty Industrial Welding</h3><p>Industrial welding for demanding fabrication and repair jobs.</p></article>
+          <article class="service"><h3>Structural Steel Fabrication and Erection</h3><p>Fabrication and erection of structural steel work.</p></article>
+          <article class="service"><h3>Water Tank Towers and Steel Supports</h3><p>Steel towers, supports and related fabrication.</p></article>
+          <article class="service"><h3>Steel Doors, Windows and Security Grills</h3><p>Custom steel doors, windows and security grills.</p></article>
+          <article class="service"><h3>Machine Parts Fabrication and Repairs</h3><p>Fabrication and repair of machine parts.</p></article>
+          <article class="service"><h3>Trailer and Truck Body Fabrication and Repairs</h3><p>Fabrication and repair work for trailers and truck bodies.</p></article>
+          <article class="service"><h3>Custom Steel Fabrication and General Engineering Works</h3><p>Custom steelwork and general engineering fabrication.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="wrap">
+        <h2 class="section-title">THE STEEL WORKS</h2>
+        <p class="lead">Quality workmanship you can trust. Based in Ruiru along Eastern Bypass, near Total Petrol Station, and serving customers and contractors across Kenya.</p>
+      </div>
+    </section>
+
+    <section class="poster">
+      <div class="wrap">
+        <h2 class="section-title">Our work and capabilities</h2>
+        <p class="lead">See our service overview and examples featured in our company poster.</p>
+        <img src="poster.png" alt="THE STEEL WORKS services and contact poster">
+      </div>
+    </section>
+
+    <section class="contact" id="contact">
+      <div class="wrap">
+        <h2 class="section-title">Contact us</h2>
+        <p class="lead">Get in touch to discuss your welding, repair or fabrication job.</p>
+        <div class="contact-grid">
+          <div class="contact-card"><strong>Call</strong><a href="tel:+254790900636">0790 900 636</a></div>
+          <div class="contact-card"><strong>Call</strong><a href="tel:+254781396425">0781 396 425</a></div>
+          <div class="contact-card"><strong>Visit</strong><span>Ruiru, along Eastern Bypass, near Total Petrol Station</span></div>
+        </div>
+        <div class="contact-actions">
+          <a class="btn wa" href="https://wa.me/254790900636?text=Hello%20THE%20STEEL%20WORKS%2C%20I%20would%20like%20to%20enquire%20about%20your%20services.">Chat on WhatsApp</a>
+          <a class="btn yellow" href="tel:+254790900636">Call now</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>© THE STEEL WORKS • Welding &amp; Fabrication • Ruiru, Kenya</footer>
+</body>
+</html>
